@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Saira', sans-serif;
 }
+
+.about > p {
+    font-family: 'Satisfy', cursive; 
+}
+
 body {
     /* font-family: 'Fasthand', cursive; */
     /* ularo bolded */
