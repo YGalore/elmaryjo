@@ -7,6 +7,19 @@
     font-family: 'Saira', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ffe4c4;
+    font-size: 15px;
+}
+
+carote {
+    color: #F16522;
+    color: #231F20;
+    color: #0080FF;
+    color: #ffe4c4;
+}
+
 .about > p {
     font-family: 'Satisfy', cursive; 
 }
@@ -20,3 +33,62 @@ body {
     /* ularo mwembamba */
 }
 
+header {
+    background-image: url('/assets/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #231F20;
+    background-blend-mode: soft-light;
+    color: #ffe4c4;
+}
+
+.img-logo {
+    cursor: pointer;
+}
+
+.img-menu {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #231F20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: auto;
+    height: 17%;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    height: 83%;
+}
+
+.landing h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.landing > p {
+    text-align: center;
+}
+
+/* .landing > p:first-letter {
+    font-size: 30px;
+    color: #0080FF;
+} */
+
+.bg-filled {
+    background-color: #0080FF;
+    padding: 5px 10px;
+}
