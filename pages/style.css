@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffe4c4;
+    font-size: 15px;
+}
+
+carote {
+    color: #F16522;
+    color: #231F20;
+    color: #0080FF;
+    color: #ffe4c4;
+}
+
+.about > p {
+    font-family: 'Satisfy', cursive; 
+}
+
+body {
+    /* font-family: 'Fasthand', cursive; */
+    /* ularo bolded */
+     
+    /* wima safi  */
+    /* font-family: 'Satisfy', cursive; */
+    /* ularo mwembamba */
+}
+
+header {
+    background-image: url('/assets/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #231F20;
+    background-blend-mode: soft-light;
+    color: #ffe4c4;
+}
+
+.img-logo {
+    cursor: pointer;
+}
+
+.img-menu {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #231F20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: auto;
+    height: 17%;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    height: 83%;
+}
+
+.landing h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.landing > p {
+    text-align: center;
+}
+
+/* .landing > p:first-letter {
+    font-size: 30px;
+    color: #0080FF;
+} */
+
+.bg-filled {
+    background-color: #0080FF;
+    padding: 5px 10px;
+}
