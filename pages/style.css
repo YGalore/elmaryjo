@@ -7,6 +7,16 @@
     font-family: 'Saira', sans-serif;
 }
 
+.overlay {
+    background-color: #0080FF;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+}
+
 a {
     text-decoration: none;
     color: #ffe4c4;
@@ -53,6 +63,35 @@ header {
     cursor: pointer;
 }
 
+.menu {
+    cursor: pointer;
+}
+
+/* some new features are from here */
+.mob-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 50px;
+    /* display: none; */
+}
+
+.mob-nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+.mob-nav li {
+    padding-bottom: 20px;
+}
+
+.overlay figure {
+    text-align: right;
+}
+/* some new features are from here */
+
 nav {
     background-color: #231F20;
     display: flex;
@@ -91,4 +130,151 @@ nav {
 .bg-filled {
     background-color: #0080FF;
     padding: 5px 10px;
+    color: #ffe4c4;
+    cursor: pointer;
+}
+
+/* main section */
+main {
+    background-color: #ffe4c4;
+    /* height: 100vh; */
+}
+
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    top: -20px;
+}
+
+.card {
+    background-color: #ffe4c4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.wedo-img {
+    border: 2px solid #0080FF;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-description > p {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+/* rendering a portfolio section */
+
+.form-section {
+    background-image: url("/assets/bg1-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    padding: 30px;
+}
+
+label {
+    display: block;
+    color: #ffe4c4;
+    padding-top: 9px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding-bottom: 9px;
+    background-color: transparent;
+    color: #ffe4c4;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 1px solid #ffe4c4;
+}
+
+input::placeholder {
+    color: #ffe4c4;
+    font-size: 12px;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: #ffe4c4;
+    font-size: 12px;
+    font-style: italic;
+}
+
+button {
+    margin-top: 20px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.form-section > p {
+    padding: 19px 0;
+    color: #ffe4c4;
+    text-align: center;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 17px;
+}
+
+footer {
+    background-color: #231F20;
+    color: #ffe4c4;
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+footer menu {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+hr {
+    width: 20px;
+    margin-bottom: 25px;
+}
+
+.img-social-media {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #0080FF;
+    background-color: #0080FF;
+    border-radius: 50%;
+    margin: 2px;
+    padding: 2px;
+}
+
+.social-media {
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    flex-direction: row;
+    gap: 30px;
 }

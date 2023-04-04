@@ -18,9 +18,9 @@
                 <li>Portfolio</li>
                 <li>Contact</li>
             </ul> -->
-            <figure>
-                <img src="./assets/menu.png" alt="menu" class="img-menu">
-            </figure>
+            <!-- <figure>
+                <img src="./assets/menu.png" alt="menu" class="menu">
+            </figure> -->
         </nav>
         <div class="landing">
             <h1>archtect & building construction company</h1>
@@ -29,20 +29,156 @@
                 building construction. starting from
                 plot survey, structure design, construction and finishing 
             </p>
-            <a href="#" class="bg-filled">Work with Us</a>
+            <a href="#form" class="bg-filled" id="work-us">Work with Us</a>
+        </div>
+        <div class="overlay">
+            <figure>
+                <img src="./assets/menu.png" alt="menu" class="menu">
+            </figure>
+            <div class="mob-nav">
+                <figure>
+                    <a href="/index.html"><img src="./assets/logo-elmary.png" alt="logo" class="img-logo"></a>
+                </figure>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
+    
     <main>
         <section class="about">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Nostrum maxime officiis sed, laboriosam fuga fugiat commodi deserunt 
-                quos suscipit esse.
-            </p>
-
+           <div class="card">
+                <div class="card-image">
+                    <figure class="wedo-img">
+                        <img src="/assets/apartment.png" alt="apartment">
+                    </figure>
+                </div>
+                <div class="card-description">
+                    <p>
+                        Lorem ipsum dolor  adipisicing elit. 
+                        Accusamus, minima. Ad ex omnis cum amet eum corrupti 
+                        ducimus quidem.
+                    </p>
+                </div>
+           </div>
+           <div class="card">
+                <div class="card-image">
+                    <figure class="wedo-img">
+                        <img src="/assets/construction.png" alt="construction">
+                    </figure>
+                </div>
+                <div class="card-description">
+                    <p>
+                        Lorem ipsum dolor  adipisicing elit. 
+                        Accusamus, minima. Ad ex omnis cum amet eum corrupti 
+                        ducimus quidem.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <figure class="wedo-img">
+                        <img src="/assets/engineering.png" alt="construction">
+                    </figure>
+                </div>
+                <div class="card-description">
+                    <p>
+                        Lorem ipsum dolor  adipisicing elit. 
+                        Accusamus, minima. Ad ex omnis cum amet eum corrupti 
+                        ducimus quidem..
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <figure class="wedo-img">
+                        <img src="/assets/real_estate.png" alt="construction">
+                    </figure>
+                </div>
+                <div class="card-description">
+                    <p>
+                        Lorem ipsum dolor  adipisicing elit. 
+                        Accusamus, minima. Ad ex omnis cum amet eum corrupti 
+                        ducimus quidem.
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 
+    <section class="form-section">
+        <div class="slider">
+            <figure>
+                <img src="./assets/real_estate.png" alt="">
+            </figure>
+            <figure>
+                <img src="./assets/engineering.png" alt="">
+            </figure>
+            <figure>
+                <img src="./assets/apartment.png" alt="">
+            </figure>
+            <figure>
+                <img src="./assets/real_estate.png" alt="">
+            </figure>
+        </div>
+
+        <form action="" class="form-contents" id="form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Simon Simon" required>
+            <label for="email">email:</label>
+            <input type="text" name="email" placeholder="simon@simon.co.tz" required>
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" placeholder="+255753 333 3333" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message .."></textarea>
+        </form>
+        <button class="bg-filled">Submit</button>
+        <p>
+            work with us for smart, consistency and updated designs
+        </p>
+    </section>
+    <footer>
+        <div class="social-media">
+            <menu class="social-icons">
+                <li>
+                    <a href=""><img src="/assets/facebook-f.svg" alt="facebook" class="img-social-media"></a>
+                </li>
+                <li>
+                    <a href=""><img src="/assets/instagram.svg" alt="instagram" class="img-social-media"></a>
+                </li>
+                <li>
+                    <a href=""><img src="/assets/twitter-4.svg" alt="twitter" class="img-social-media"></a>
+                </li>
+                <li>
+                    <a href=""><img src="/assets/whatsapp-2.svg" alt="whatsapp" class="img-social-media"></a>
+                </li>
+            </menu>
+        </div>
+        <hr>
+        <div class="contacts">
+            <menu>
+                <li>P.O.Box 2323</li>
+                <li>Nyerere road, Mkombozi Bank Building</li>
+                <li>Dodoma, Tanzania</li>
+            </menu>
+        </div>
+        <hr>
+        <div class="copyright">
+            &copy; 2023 by <a href="#">YG</a>
+        </div>
+    </footer>
 <script src="./pages/script.js"></script>
 </body>
 </html>
